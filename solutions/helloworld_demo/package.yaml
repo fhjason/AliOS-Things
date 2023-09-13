@@ -18,6 +18,7 @@ depends:
   - cli: master
   - osal_aos: master
   - ramfs: master
+  - qemu_loongson1c: master
 supported_boards:
   - haas100: master
   - haas200: master
