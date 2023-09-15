@@ -1,0 +1,1 @@
+~/install/qemu/build/mipsel-softmmu/qemu-system-mipsel -M ls1c -m 32 -serial null -serial null -serial mon:stdio -nic user,id=u1,hostfwd=tcp::4321-:1234 -object filter-dump,id=f1,netdev=u1,file=dump.pcap -nographic -kernel ../../../AliOS-Things/solutions/helloworld_demo/out/helloworld_demo@qemu_loongson1c.elf
