@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "ramfs.h": "c",
+        "*.tcc": "cpp",
+        "fstream": "cpp",
+        "array": "c",
+        "hash_map": "c",
+        "hash_set": "c",
+        "bitset": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "regex": "c",
+        "utility": "c",
+        "typeindex": "cpp",
+        "typeinfo": "cpp",
+        "netdb.h": "c"
+    }
+}

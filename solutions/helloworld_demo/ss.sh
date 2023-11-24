@@ -1,0 +1,1 @@
+qemu-system-mipsel -M ls1c -m 32 -serial null -serial null -serial mon:stdio -nic user,id=u1,hostfwd=tcp::4321-:1122 -object filter-dump,id=f1,netdev=u1,file=dump.pcap -nographic -kernel out/helloworld_demo@qemu_loongson1c.elf -gdb tcp::1122 -S
